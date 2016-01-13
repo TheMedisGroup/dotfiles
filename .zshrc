@@ -21,3 +21,4 @@ foreach file (`echo $sources`)
         source $file
     fi
 end
+export PATH=$PATH:$HOME/bin
