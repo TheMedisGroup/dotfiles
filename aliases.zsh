@@ -33,7 +33,7 @@ alias gl="git log --all --graph --decorate" # detailed log
 # pushes upstream and opens branch in browser
 alias gpu="git push --set-upstream origin HEAD && git browse"
 
-# handsome log
+# handsome almost pretty log
 alias glog="git log --graph --pretty=format:'%Cred%h%Crest %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
 # removes local branches that have been merged into master
