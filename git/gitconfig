@@ -1,0 +1,30 @@
+[user]
+  email = mike@mikemedis.tech
+  name = Mike Medis
+  initials = MM
+[core]
+  excludesfile = /Users/Michael/.gitignore_global
+  editor = subl -w
+[github]
+  user = mikeMedis
+[diff]
+  tool = vimdiff
+[push]
+  default = upstream
+[web]
+  browser = google-chrome
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = green
+  changed = red
+  untracked = cyan

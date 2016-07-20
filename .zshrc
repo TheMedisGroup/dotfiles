@@ -28,3 +28,8 @@ foreach file (`echo $sources`)
     fi
 end
 export PATH=$PATH:$HOME/bin
+
+export NVM_DIR="/Users/Michael/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.bin:$PATH"

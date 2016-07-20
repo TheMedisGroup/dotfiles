@@ -7,7 +7,7 @@ antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-#antigen theme gnzh
-antigen theme https://github.com/halfo/lambda-mod-zsh-theme/ lambda-mod
+antigen theme crunch
+
 # Tell antigen that you're done.
 antigen apply
